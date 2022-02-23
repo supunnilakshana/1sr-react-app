@@ -12,6 +12,10 @@ async function getdata() {
   return data;
 }
 
+
+
+
+
 function Namelist() {
   const [nAmelist, setuser] = useState([
     {
@@ -24,60 +28,6 @@ function Namelist() {
         city: "kilcoole",
       },
       email: "brad.gibson@example1.com",
-
-      dob: {
-        date: "1993-07-20T09:44:18.674Z",
-      },
-      picture: {
-        medium: "https://randomuser.me/api/portraits/med/men/75.jpg",
-      },
-    },
-    {
-      gender: "male",
-      name: {
-        first: "brad",
-        last: "gibson",
-      },
-      location: {
-        city: "kilcoole",
-      },
-      email: "brad.gibson@example2.com",
-
-      dob: {
-        date: "1993-07-20T09:44:18.674Z",
-      },
-      picture: {
-        medium: "https://randomuser.me/api/portraits/med/men/75.jpg",
-      },
-    },
-    {
-      gender: "male",
-      name: {
-        first: "brad",
-        last: "gibson",
-      },
-      location: {
-        city: "kilcoole",
-      },
-      email: "brad.gibson@example3.com",
-
-      dob: {
-        date: "1993-07-20T09:44:18.674Z",
-      },
-      picture: {
-        medium: "https://randomuser.me/api/portraits/med/men/75.jpg",
-      },
-    },
-    {
-      gender: "male",
-      name: {
-        first: "brad",
-        last: "gibson",
-      },
-      location: {
-        city: "kilcoole",
-      },
-      email: "brad.gibson@example4.com",
 
       dob: {
         date: "1993-07-20T09:44:18.674Z",

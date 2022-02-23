@@ -1,8 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
-import NamelistItem from "./components/listarea/NamelistItem";
-import Namelist from "./components/listarea/Namelist";
-import Headercustom from "./components/Header/Headercustom";
+import Namelist from "./components/pages/listarea/Namelist";
+import Headercustom from "./components/pages/listarea/Header/Headercustom";
+import { BrowserRouter, Route } from "react-router-dom";
 
 function App() {
   return (
